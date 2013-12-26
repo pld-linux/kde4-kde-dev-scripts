@@ -34,10 +34,10 @@ BuildRequires:	rpmbuild(macros) >= 1.600
 BuildRequires:	subversion-devel >= 0.37.0
 BuildRequires:	utempter-devel
 Suggests:	/usr/bin/perl
-Obsoletes:	kde4-kdesdk-scripts-developer
 Obsoletes:	kde4-kdesdk-scripts-cvs
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	kde4-kdesdk-scripts-developer
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains:
