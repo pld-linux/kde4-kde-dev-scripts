@@ -9,12 +9,12 @@
 Summary:	An set of scripts useful for building and maintaining KDE
 Summary(pl.UTF-8):	Zestaw skryptów do kompilowania i utrzymywania KDE
 Name:		kde4-%{orgname}
-Version:	4.13.2
+Version:	4.14.0
 Release:	1
 License:	GPL
 Group:		X11/Development/Tools
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	9c24faddfb488c3a0586dfbfb6d76621
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+# Source0-md5:	798e70fe60cab26e125e3db5d6dde647
 URL:		http://www.kde.org/
 BuildRequires:	QtNetwork-devel >= %{qtver}
 BuildRequires:	QtScriptTools-devel >= %{qtver}
